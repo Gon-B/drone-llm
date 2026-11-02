@@ -1,0 +1,12 @@
+   # Jamais sur GitHub : secrets et traces d'exécution
+   .env
+   *.key
+   journal.jsonl
+
+   # Python
+   __pycache__/
+   *.pyc
+   .venv/
+
+   # Système
+   .DS_Store
