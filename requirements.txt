@@ -1,0 +1,4 @@
+anthropic>=0.40
+pydantic>=2.0
+# Seulement sur la machine reliée au simulateur PX4 (ou au vrai drone) :
+mavsdk>=2.0,<4   # l'API a changé en v4 ; ce code utilise l'API gRPC classique
